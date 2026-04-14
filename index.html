@@ -445,7 +445,7 @@
     
     // custom message jika tinggal beberapa hari
     let preMessage = "";
-    if (days === 0 && hours < 24 && hours > 0) preMessage = "💫 Besok hari spesialmu! 💫";
+    if (days === 0 && hours < 24 && hours > 0) preMessage = " Besok Hari yang Spesial Buatmu ia";
     else if (days === 1) preMessage = "🌙 H-1 menuju kebahagiaan! 🌙";
     else if (days <= 7 && days > 1) preMessage = `✨ ${days} hari lagi, surga kecilmu datang ✨`;
     else preMessage = `🌸 menuju usia 20 yang penuh mimpi 🌸`;
@@ -470,7 +470,7 @@
         </div>
       </div>
     `;
-    extraStatusSpan.innerHTML = `${preMessage}  🕯️  ${days === 0 ? "sebentar lagi" : "setiap detik mendekatkan kita"} 🕯️`;
+    extraStatusSpan.innerHTML = `${preMessage}  🕯️  ${days === 0 ? "sebentar lagi" : "setiap detik mendekatkan kita"}`;
   }
   
   // Tambahan floating petals dekoratif di background (opsional, makin cantik)
